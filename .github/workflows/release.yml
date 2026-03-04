@@ -46,7 +46,7 @@ jobs:
 
       - name: Build & Publish Windows installer
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run publish
 
       # Upload artifacts even if publish is skipped (for inspection)
@@ -74,7 +74,7 @@ jobs:
   #     - run: npm ci
   #     - run: npm run build:mac
   #       env:
-  #         GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  #         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   #         CSC_IDENTITY_AUTO_DISCOVERY: false  # Skip code-signing for now
 
   # ── Release Notes (auto-generated) ───────────────────────────────────────
