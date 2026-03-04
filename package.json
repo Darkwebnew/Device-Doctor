@@ -1,0 +1,129 @@
+{
+  "name": "device-doctor",
+  "version": "1.0.0",
+  "description": "One-click system analyzer and hardware health monitor",
+  "main": "src/main.js",
+  "author": {
+    "name": "Device Doctor",
+    "email": "support@devicedoctor.app",
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/device-doctor"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/device-doctor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/device-doctor.git"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build:win": "electron-builder --win --x64",
+    "build:mac": "electron-builder --mac",
+    "build:linux": "electron-builder --linux",
+    "publish": "electron-builder --win --publish always",
+    "publish:dry": "electron-builder --win --publish never"
+  },
+  "keywords": [
+    "system",
+    "monitor",
+    "diagnostics",
+    "electron",
+    "hardware"
+  ],
+  "devDependencies": {
+    "electron": "^40.6.1",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {
+    "electron-log": "^5.2.0",
+    "electron-updater": "^6.3.4",
+    "systeminformation": "^5.23.5"
+  },
+  "build": {
+    "appId": "com.devicedoctor.app",
+    "productName": "Device Doctor",
+    "copyright": "Copyright © 2025 Device Doctor",
+    "directories": {
+      "output": "dist",
+      "buildResources": "assets"
+    },
+    "files": [
+      "src/**/*",
+      "assets/icons/**/*",
+      "package.json"
+    ],
+    "asar": true,
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/icons/icon.ico",
+      "requestedExecutionLevel": "asInvoker",
+      "publisherName": "Device Doctor",
+      "verifyUpdateCodeSignature": false
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": true,
+      "allowToChangeInstallationDirectory": false,
+      "allowElevation": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Device Doctor",
+      "uninstallDisplayName": "Device Doctor",
+      "installerIcon": "assets/icons/icon.ico",
+      "uninstallerIcon": "assets/icons/icon.ico",
+      "installerHeaderIcon": "assets/icons/icon.ico",
+      "deleteAppDataOnUninstall": false,
+      "runAfterFinish": true,
+      "menuCategory": "Device Doctor",
+      "artifactName": "Device Doctor Setup ${version}.exe"
+    },
+    "portable": {
+      "artifactName": "Device Doctor Portable ${version}.exe"
+    },
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
+      ],
+      "icon": "assets/icons/icon.icns",
+      "category": "public.app-category.utilities"
+    },
+    "linux": {
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/icons/icon.png",
+      "category": "System"
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "YOUR_GITHUB_USERNAME",
+      "repo": "device-doctor",
+      "releaseType": "release",
+      "private": false
+    }
+  }
+}
