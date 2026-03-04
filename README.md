@@ -20,7 +20,7 @@ A cross-platform desktop application for one-click system analysis, diagnostics,
 ## 🗂️ Project Structure
 
 ```
-device-doctor/
+Device-Doctor/
 ├── src/
 │   ├── main.js                        # Electron main process
 │   ├── preload.js                     # Secure context bridge
@@ -76,7 +76,7 @@ device-doctor/
 
 ```bash
 # Clone or download the project
-cd device-doctor
+cd Device-Doctor
 
 # Install dependencies
 npm install

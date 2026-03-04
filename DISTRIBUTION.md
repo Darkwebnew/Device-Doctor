@@ -22,33 +22,33 @@ npm install
 ### 2a. Create the repo
 
 1. Go to https://github.com/new
-2. Repository name: **device-doctor**
+2. Repository name: **Device-Doctor**
 3. Set to **Public** (required for free auto-update hosting)
 4. Click **Create repository**
 
 ### 2b. Push your code
 
 ```bash
-cd device-doctor
+cd Device-Doctor
 git init
 git add .
 git commit -m "feat: initial release v1.0.0"
-git remote add origin https://github.com/YOUR_USERNAME/device-doctor.git
+git remote add origin https://github.com/YOUR_USERNAME/Device-Doctor.git
 git push -u origin main
 ```
 
 ### 2c. Update package.json
 
-Replace `YOUR_GITHUB_USERNAME` in `package.json`:
+Replace `Darkwebnew` in `package.json`:
 
 ```json
 "repository": {
-  "url": "https://github.com/YOUR_USERNAME/device-doctor.git"
+  "url": "https://github.com/YOUR_USERNAME/Device-Doctor.git"
 },
 "publish": {
   "provider": "github",
   "owner":    "YOUR_USERNAME",
-  "repo":     "device-doctor"
+  "repo":     "Device-Doctor"
 }
 ```
 
@@ -150,7 +150,7 @@ git push origin v1.0.0
 # 3. Upload the .exe, .yml, and .blockmap files
 # 4. Publish the release
 
-# Monitor at: https://github.com/YOUR_USERNAME/device-doctor/actions
+# Monitor at: https://github.com/YOUR_USERNAME/Device-Doctor/actions
 ```
 
 ### Method B: Build and publish from local machine
@@ -263,7 +263,7 @@ env:
 |-------|----------|
 | `GH_TOKEN is not set` | Set the env variable (see Step 3) |
 | `Cannot publish: 422 Unprocessable Entity` | Release with this tag already exists — delete it on GitHub first |
-| `Update check fails silently` | Check `%APPDATA%\device-doctor\logs\main.log` on Windows |
+| `Update check fails silently` | Check `%APPDATA%\Device-Doctor\logs\main.log` on Windows |
 | SmartScreen warning on install | Normal without code signing — click "More info → Run anyway" |
 | `NSIS` not found | Install on Windows or use the GitHub Actions workflow instead |
 | `icon.ico` missing error | Create the icon file at `assets/icons/icon.ico` (see Step 4) |
@@ -271,16 +271,16 @@ env:
 
 ### Log file locations
 
-- **Windows:** `%APPDATA%\device-doctor\logs\main.log`
-- **macOS:** `~/Library/Logs/device-doctor/main.log`
-- **Linux:** `~/.config/device-doctor/logs/main.log`
+- **Windows:** `%APPDATA%\Device-Doctor\logs\main.log`
+- **macOS:** `~/Library/Logs/Device-Doctor/main.log`
+- **Linux:** `~/.config/Device-Doctor/logs/main.log`
 
 ---
 
 ## 11. Project File Reference
 
 ```
-device-doctor/
+Device-Doctor/
 ├── src/
 │   ├── main.js                    ← Main process + autoUpdater setup
 │   ├── preload.js                 ← Secure IPC bridge (updater + system APIs)

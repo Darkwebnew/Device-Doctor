@@ -1,18 +1,18 @@
 {
-  "name": "device-doctor",
+  "name": "Device-Doctor",
   "version": "1.0.0",
   "description": "One-click system analyzer and hardware health monitor",
   "main": "src/main.js",
   "author": {
     "name": "Device Doctor",
     "email": "support@devicedoctor.app",
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/device-doctor"
+    "url": "https://github.com/Darkwebnew/Device-Doctor"
   },
   "license": "MIT",
-  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/device-doctor",
+  "homepage": "https://github.com/Darkwebnew/Device-Doctor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/device-doctor.git"
+    "url": "https://github.com/Darkwebnew/Device-Doctor.git"
   },
   "scripts": {
     "start": "electron .",
@@ -120,8 +120,8 @@
     },
     "publish": {
       "provider": "github",
-      "owner": "YOUR_GITHUB_USERNAME",
-      "repo": "device-doctor",
+      "owner": "Darkwebnew",
+      "repo": "Device-Doctor",
       "releaseType": "release",
       "private": false
     }
