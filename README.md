@@ -444,6 +444,41 @@ Contributions are welcome! Here's how to get involved:
 
 ---
 
+## ☕ Support the Project
+
+<div align="center">
+
+**If Device Doctor helped you diagnose, optimize, monitor, or improve your computer's performance — consider supporting continued development!**
+
+<br/>
+
+<a href="https://buymeachai.ezee.li/Harish_Ammu">
+<img src="https://img.shields.io/badge/🇮🇳_Buy_Me_A_Chai-FF6B35?style=for-the-badge" height="50"/>
+</a>
+
+<a href="https://buymeacoffee.com/sriramnvks">
+<img src="https://img.shields.io/badge/☕_Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" height="50"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/sponsors/darkwebnew">
+<img src="https://img.shields.io/badge/GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" height="50"/>
+</a>
+
+<a href="https://paypal.me/sriramnvks">
+<img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" height="50"/>
+</a>
+
+<br/><br/>
+
+*Your support helps build powerful open-source desktop tools, system diagnostics software, hardware monitoring solutions, and productivity tools for developers, power users, and IT professionals.*
+
+</div>
+
+
+---
+
 ## 📄 License
 
 <div align="center">
