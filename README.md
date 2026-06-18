@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,18,24&height=200&section=header&text=Device%20Doctor&fontSize=72&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Cross-Platform%20System%20Diagnostics%20%26%20Hardware%20Health%20Monitor%20%E2%80%94%20Electron%20%2B%20Node.js&descAlignY=55&descSize=15" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0F172A,50:1E293B,100:0F766E&text=Device%20Doctor&fontColor=ffffff&fontSize=72&animation=fadeIn&fontAlignY=38&desc=Cross-Platform%20System%20Diagnostics%20%7C%20Hardware%20Health%20Monitor&descAlignY=60&descSize=18" width="100%" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=22D3A5&center=true&vCenter=true&multiline=true&width=1600&height=60&lines=Real-Time+Hardware+Monitoring+%7C+SMART+Storage+%7C+Driver+Audit+%7C+0%E2%80%93100+Health+Scoring)](https://git.io/typing-svg)
 
@@ -519,7 +519,7 @@ See [`LICENSE`](LICENSE) for full terms.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,18,24&height=120&section=footer&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0F172A,50:1E293B,100:14B8A6&animation=twinkling" width="100%"/>
 
 **⭐ Star this repository if Device Doctor helped diagnose your machine!**
 
